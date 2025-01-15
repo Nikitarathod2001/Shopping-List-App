@@ -1,0 +1,111 @@
+.container {
+    width: 90%;
+    margin: 100px auto;   
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 5px 5px 5px hsla(0, 1%, 39%, 0.653);
+}
+
+input[type="text"] {
+    font-size: 1.7rem;
+    margin-left: 3%;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 54%);
+    padding: 10px 15px;
+    color: hsl(0, 1%, 22%);
+}
+
+input[type="text"]:focus {
+    border-color: hsl(0, 0%, 74%);
+    box-shadow: 1px 5px 10px hsl(0, 25%, 52%);
+    outline: none;
+}
+
+.add-button {
+    font-size: 1.7rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    background-color: hsl(218, 69%, 59%);
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: hsl(218, 69%, 49%);
+}
+
+.list-container {
+    width: 40%;
+    margin: 50px auto;   
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    border-radius: 10px;
+}
+
+li {
+    display: flex;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+li span {
+    font-size: 1.9rem;
+    font-weight: bold;
+    flex: 1;
+    text-align: justify;
+}
+
+li button {
+    font-size: 1.5rem;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.buy-button {
+    background-color: hsl(134, 67%, 47%);
+    color: white;
+}
+
+.buy-button:hover {
+    background-color: hsl(134, 67%, 37%);
+}
+
+.delete-button {
+    background-color: hsl(16, 67%, 47%);
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: hsl(16, 67%, 37%);
+}
+
+@media (max-width: 768px) {
+    .list-container {
+        width: 90%;
+    }
+
+    .add-button {
+        font-size: 1.8rem;
+        padding: 10px 40px;
+        margin-top: 25px;
+    }
+}
