@@ -25,16 +25,16 @@ Here’s how the app looks in action:
 ### Screenshots
 
 1. **Home Screen**
-<br>
    ![Home Screen](images/img1.png)
+   <br>
 
 2. **Adding an Item**
-<br>
    ![Adding Item](images/img2.png)
+   <br>
 
 3. **Toggling the Status of Button**
-<br>
    ![Managing List](images/img3.png)
+   <br>
 
 
 Happy shopping! 🛒
